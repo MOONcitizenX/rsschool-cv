@@ -1,0 +1,153 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1170px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.header-container {
+	background-color: #1e0e3a;
+	padding: 20px 15px;
+	min-width: fit-content;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-name {
+	color: #fff;
+	display: flex;
+	align-self: stretch;
+	align-items: center;
+	padding: 0 1.5rem;
+}
+
+.header-menu {
+	display: flex;
+	justify-content: flex-end;
+	gap: 20px;
+	align-items: center;
+	padding-right: 15px;
+	list-style: none;
+}
+.header-menu-elem a {
+	color: #fff;
+	font-size: 18px;
+	transition: all 0.1s ease;
+	line-height: 20px;
+	text-decoration: none;
+}
+.header-menu-elem a:hover {
+	color: rgb(108, 166, 219);
+	text-decoration: underline;
+}
+.main-content {
+	background-color: #eae1ee;
+	padding: 20px;
+	min-width: fit-content;
+}
+
+.main-section {
+	padding: 0 15px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: 15px;
+	padding-bottom: 40px;
+}
+.main-section p {
+	line-height: 22px;
+}
+
+.main-content-aside {
+	margin: 0;
+	padding-top: 5px;
+}
+.main-content-aside a {
+	color: #3b3b93;
+	text-decoration: underline;
+}
+.main-content-aside a:visited {
+	color: #3b3b93;
+}
+
+.main-content-aside-elem {
+	padding-bottom: 10px;
+}
+
+.contacts-link p {
+	display: inline-block;
+	min-width: fit-content;
+}
+code {
+	display: block;
+	background-color: #ccc;
+	padding: 5px 5px;
+	border-radius: 5px;
+	max-width: fit-content;
+}
+
+.footer-container {
+	background-color: #1e0e3a;
+	/* border-top-left-radius: 10px;
+	border-top-right-radius: 10px; */
+	padding: 0.5em 0;
+	min-width: fit-content;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+	color: white;
+}
+.footer-logo-link {
+	max-width: 50px;
+	background-color: yellow;
+	padding: 2px;
+}
+
+.footer-container a {
+	color: white;
+	text-decoration: underline;
+}
+
+@media (max-width: 960px) {
+	ul.header-menu {
+		display: none;
+	}
+	.header-container,
+	.footer-container,
+	.main-content {
+		min-width: 375px;
+	}
+	.main-content {
+		padding: 20px 0;
+	}
+}
