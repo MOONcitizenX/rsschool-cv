@@ -1,3 +1,4 @@
 # rsschool-cv  
-  
-https://mooncitizenx.github.io/rsschool-cv/cv  
+
+https://MOONcitizenX.github.io/rsschool-cv/  
+
