@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pavel Pristupa | CV</title>
+		<link rel="stylesheet" href="./style.css" />
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="./assets/favicon/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/favicon/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="./assets/favicon/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="./assets/favicon/site.webmanifest" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__wrapper">
+					<h1 class="header__title">Pavel&nbsp;Pristupa</h1>
+					<nav class="header__nav">
+						<ul class="nav__list">
+							<li class="nav__item">
+								<a href="#contacts" class="nav__link"
+									>Contacts</a
+								>
+							</li>
+							<li class="nav__item">
+								<a href="#about" class="nav__link">About</a>
+							</li>
+							<li class="nav__item">
+								<a href="#skills" class="nav__link">Skills</a>
+							</li>
+							<li class="nav__item">
+								<a href="#code" class="nav__link">Code</a>
+							</li>
+							<li class="nav__item">
+								<a href="#work" class="nav__link">Work exp.</a>
+							</li>
+							<li class="nav__item">
+								<a href="#projects" class="nav__link"
+									>Projects</a
+								>
+							</li>
+							<li class="nav__item">
+								<a href="#education" class="nav__link"
+									>Education</a
+								>
+							</li>
+							<li class="nav__item">
+								<a href="#english" class="nav__link">English</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<div class="container">
+				<section class="hero">
+					<div class="hero__avatar">
+						<img
+							src="./assets/img/photo_2022-02-05_14-59-13.jpg"
+							alt="photo"
+							class="hero__avatar-img"
+						/>
+					</div>
+					<h2 class="hero__title">Front-end developer</h2>
+				</section>
+				<div class="main__grid">
+					<section id="contacts" class="section">
+						<h2 class="section__title">Contacts</h2>
+						<div class="section__content">
+							<ul class="contacts__list section__inside">
+								<li class="contacts__item">
+									Location: Belarus, Minsk region
+								</li>
+								<li class="contacts__item">
+									<p>Phone:</p>
+									<a
+										href="tel:+375298535413"
+										class="section__link"
+										>+375(29)853-54-13</a
+									>
+								</li>
+								<li class="contacts__item">
+									<p>E-mail:</p>
+									<a
+										href="mailto:mooncitizenx@gmail.com"
+										target="_blank"
+										class="section__link"
+										>mooncitizenx@gmail.com</a
+									>
+								</li>
+								<li class="contacts__item">
+									Telegram: @malenkiy_mook
+								</li>
+								<li class="contacts__item">
+									<a
+										href="https://www.linkedin.com/in/pavel-pristupa/"
+										target="_blank"
+										class="section__link"
+										>LinkedIn</a
+									>
+								</li>
+								<li class="contacts__item">
+									<a
+										href="https://github.com/MOONcitizenX"
+										target="_blank"
+										class="section__link"
+										>GitHub</a
+									>
+								</li>
+							</ul>
+						</div>
+					</section>
+					<section id="about" class="section">
+						<h2 class="section__title">About</h2>
+						<div class="section__content">
+							<p class="about__content">
+								My goal is to become a front-end developer. I'm
+								willing to learn and develop my skills in
+								software engineering. There's never a point when
+								you can say "I've learned everything", so
+								getting new skills is a must in IT sphere.
+							</p>
+						</div>
+					</section>
+					<section id="skills" class="section">
+						<h2 class="section__title">Skills</h2>
+						<div class="section__content">
+							<ul class="skills__list section__inside">
+								<li class="skills__item">HTML basics</li>
+								<li class="skills__item">CSS basics</li>
+								<li class="skills__item">JavaScript basics</li>
+								<li class="skills__item">Git, GitHub</li>
+								<li class="skills__item">VSCode</li>
+							</ul>
+						</div>
+					</section>
+					<section id="code" class="section">
+						<h2 class="section__title">Code</h2>
+						<div class="section__content">
+							<div class="code__container section__inside">
+								<p class="code__text">
+									Given a string of digits, you should replace
+									any digit below 5 with '0' and any digit 5
+									and above with '1'. Return the resulting
+									string. Note: input will never be an empty
+									string
+								</p>
+								<p class="code__text">Solution:</p>
+								<pre><code class="code__code"
+										>const fakeBin = (x) =&gt; x
+	.split('')
+	.map((el) =&gt; (el &lt; 5 ? 0 : 1))
+	.join('');</code></pre>
+							</div>
+						</div>
+					</section>
+					<section id="work" class="section">
+						<h2 class="section__title">Work Experience:</h2>
+						<div
+							class="work__list section__content section__inside"
+						>
+							<h3 class="section__sub-title">
+								August 2014 - March 2019:
+							</h3>
+							<p class="section__sub-desc">
+								Security Officer at the National Airport Minsk
+							</p>
+							<h3 class="section__sub-title">
+								March 2019 - Present:
+							</h3>
+							<p class="section__sub-desc">
+								Supervisor at at the National Airport Minsk
+							</p>
+						</div>
+					</section>
+					<section class="section">
+						<h2 id="projects" class="section__title">Projects</h2>
+
+						<a
+							href="https://mooncitizenx.github.io/portfolio-1/portfolio/"
+							target="_blank"
+							class="section__content section__link"
+							>Portfolio: using HTML, CSS, JS</a
+						>
+					</section>
+					<section id="education" class="section">
+						<h2 class="section__title">Education</h2>
+						<div class="edu__list section__content section__inside">
+							<h3 class="section__sub-title">2007-2014:</h3>
+							<p class="section__sub-desc">
+								Minsk State Linguistic University
+							</p>
+							<p class="section__sub-desc">
+								Linguist, Translator
+							</p>
+							<h3 class="section__sub-title">
+								April 2022 - Present:
+							</h3>
+							<p class="section__sub-desc">RS School course</p>
+							<p class="section__sub-desc">Front-end developer</p>
+						</div>
+					</section>
+					<section id="english" class="section">
+						<h2 class="section__title">English</h2>
+						<p class="section__content section__sub-title">
+							B2&nbsp;&mdash; C1
+						</p>
+					</section>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__container">
+					<a
+						class="footer__link"
+						href="https://github.com/MOONcitizenX"
+						target="_blank"
+						>GitHub</a
+					>
+					<p>2022</p>
+					<a
+						class="footer__link"
+						href="https://rs.school/js/"
+						target="_blank"
+					>
+						<div class="footer__link-img">
+							<img
+								class="footer__logo-link"
+								src="./assets/img/logo-rsschool3.png"
+								alt="rs school logo"
+							/>
+						</div>
+					</a>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
