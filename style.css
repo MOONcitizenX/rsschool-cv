@@ -310,9 +310,23 @@ h2 {
 	.main__grid {
 		display: flex;
 		flex-direction: column;
+		align-items: center;
 	}
 	.hero {
 		flex-direction: column;
 		gap: 25px;
+	}
+	.section__content {
+		margin: 0;
+		max-width: 100%;
+	}
+	.section__title {
+		text-align: center;
+	}
+	.section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 0 15px;
 	}
 }
